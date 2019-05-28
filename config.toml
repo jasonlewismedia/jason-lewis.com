@@ -1,0 +1,156 @@
+baseurl = "https://jason-lewis.com/"
+languageCode = "en-us"
+title = "Jason Lewis"
+theme = "hugo-creative"
+googleAnalytics = ""
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
+
+	# All icons using Fontawesome's icon font. Look at http://fontawesome.io/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# All projects of the portfolio are defined in their own files.
+	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+	# folder into the 'data' directory at the root of this Hugo site.
+	# For more information take a look at the README.
+
+	# To provide some metadata for search engines feel free to add some
+	# information about you and your website.
+	name = "Jason Lewis"
+	description = "Technology Leader, Engineer & Media Professional based in Seattle, Washington USA."
+
+	# The path must be relative to the static folder
+	favicon = "favicon.ico"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "Jason Lewis"
+
+		[params.navigation.links]
+			about     = "My Story"
+			services  = "At a Glance"
+			# portfolio = "Portfolio"
+			resume = "Resume"
+			contact   = "Contact"
+	[params.resume]
+		url = "Jason-Lewis-Resume-2019-05-27.pdf"
+
+	# Hero section
+	[params.hero]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		slogan     = ""
+		subtitle   = "**Right brain, Left brain**: I love the interplay between art & science, technology & media, & building diverse teams to achieve things no one has done before."
+		buttonText = "Learn More About Me"
+
+	# Tagline section
+	[params.tagline]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		subtitle   = "**I enjoy the interplay between art & science, technology & media, & bringing diverse people together to achieve things no one has done before.**"
+
+
+	# About section
+	[params.about]
+		headline    = "Adaptability, Creativity, Innovation, Grit, Continuous Learning, Empathy & Open Communication"
+		description = "I grew up in Latin America, Africa, Asia, & the Middle East & it taught me appreciation for diversity & how to quickly adapt, learn, and take on change successfully. I credit this multi-cultural education for my ability to quickly dive into complex technology projects, engage successfully with cross-functional stakeholders, & architect solutions."
+	#	buttonText  = "Traveling is good!"
+
+
+	# Service section
+	[params.services]
+		headline = "At a glance"
+
+        [[params.services.list]]
+			icon = "fa-users"
+			title = "Leadership"
+			description = "Building high performing cross-functional teams that operate with a low drama open culture"
+
+        [[params.services.list]]
+            icon = "fa-code-branch"
+            title = "Patents"
+            description = "5 patents for Video Streaming, Media & Internet of Things (IoT) systems & methods"
+
+		[[params.services.list]]
+            icon = "fas fa-brain"
+            title = "Machine Learning"
+            description = "Building Models, Systems, & Teaching others about Data Science, AI/ML, & Automation"
+
+		[[params.services.list]]
+            icon = "fas fa-code"
+            title = "Software Engineering"
+            description = "Architecture & development of Video Streaming, Mobile, Web, REST APIs, & IoT systems"
+
+        [[params.services.list]]
+            icon = "fa-hands-helping"
+            title = "Entrepreneur"
+            description = "Launched multiple v.1 products • Founded a media agency in Africa"
+
+        [[params.services.list]]
+            icon = "fa-globe"
+            title = "Global Experience"
+            description = "Multi-cultural experience living & working internationally"
+
+        [[params.services.list]]
+            icon = "fa-film"
+            title = "Media Production"
+            description = "Experience shooting, video editing, creating motion graphics, & design"
+
+        [[params.services.list]]
+            icon = "fa-camera"
+            title = "Photography"
+            description = "Shooting professionally or just for fun, I love freezing beautiful moments in time"
+
+		[[params.services.list]]
+            icon = "fa-trophy"
+            title = "Awards"
+            description = "East African Wildlife Photographer of the Year 2005 • Technology Innovation Evangelist"
+
+		[[params.services.list]]
+            icon = "fa-certificate"
+            title = "Certificates"
+            description = "5 Courses completed: Stanford Machine Learning & DeepLearning.ai via Coursera"
+
+		[[params.services.list]]
+            icon = "fa-chalkboard-teacher"
+            title = "Public Speaker & Presenter"
+            description = "Multiple presentations at public & internal tech conferences"
+
+		[[params.services.list]]
+            icon = "fa-skiing"
+            title = "Outdoors"
+            description = "I love biking, climbing, skiing, paddleboarding, & backpacking to recharge for work!"
+
+
+
+
+    # Portfolio modals
+	[params.portfolio.modal]
+        client = "Client"
+        date = "Date"
+        category = "Category"
+        buttonText = "Close"
+
+    # Aside section
+	# [params.aside]
+	# 	headline = "Get the Creative Theme for Hugo"
+
+	# 	[params.aside.button]
+	# 		text = "Download now"
+	# 		link = "//github.com/digitalcraftsman/hugo-creative-theme"
+
+	# Contact section
+	[params.contact]
+		headline = "Want to get in touch?"
+		description = "Connect with me on LinkedIn: [@jasonlewismedia](https://linkedin.com/in/jasonlewismedia/) or send me quick note:"
+		# phone = "TwoZeroSix-FourNineFive-TwoOneZeroThree"
+		email = "email@jason-lewis.com"
+
+	# Google Maps section
+	# [params.location]
+	# 	latitude  = "34.007850"
+	# 	longitude = "-118.499305"
+	# 	maps_api_key = ""
