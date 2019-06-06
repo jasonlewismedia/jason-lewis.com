@@ -56,7 +56,7 @@ googleAnalytics = ""
 	# About section
 	[params.about]
 		headline    = "Adaptability, Creativity, Innovation, Grit, Continuous Learning, Empathy & Open Communication"
-		description = "I grew up in Latin America, Africa, Asia, & the Middle East & it taught me appreciation for diversity & how to quickly adapt, learn, and take on change successfully. I credit this multi-cultural education for my ability to quickly dive into complex technology projects, engage successfully with cross-functional stakeholders, & architect solutions."
+		description = "I've been blessed to experience a broad set of challenges & diverse experiences growing up & throughout my career. Born & raised on black angus cattle ranches in the Northwest & Montana, my parents then moved overseas when I was 9 to work for non-profits. <br><br>I grew up in Latin America, Africa, Asia, & the Middle East. My high school in Kenya was small (only 100 students), but we had 19 different nationalities! It taught me appreciation for diversity & the value of contrasting perspectives.  <br><br>Experiences like this helped me quickly adapt, learn, and take on change successfully. I credit this multi-cultural education for my ability to quickly dive into complex technology projects, 'translate' between people in different functional roles to engage successfully with cross-functional stakeholders, & architect better solutions."
 	#	buttonText  = "Traveling is good!"
 
 
@@ -145,7 +145,7 @@ googleAnalytics = ""
 	# Contact section
 	[params.contact]
 		headline = "Want to get in touch?"
-		description = "Connect with me on LinkedIn: [@jasonlewismedia](https://linkedin.com/in/jasonlewismedia/) or send me quick note:"
+		description = "Connect with me on LinkedIn or view Full Resume/CV: [@jasonlewismedia](https://linkedin.com/in/jasonlewismedia/) <br><br><br>Or send me quick note:"
 		# phone = "TwoZeroSix-FourNineFive-TwoOneZeroThree"
 		email = "email@jason-lewis.com"
 
