@@ -35,10 +35,13 @@ googleAnalytics = ""
 			about     = "My Story"
 			services  = "At a Glance"
 			# portfolio = "Portfolio"
+			photography = "Photography"
 			resume = "Resume"
 			contact   = "Contact"
 	[params.resume]
 		url = "Jason-Lewis-Resume-2019-05-27.pdf"
+	[params.photography]
+		url = "https://photos.jason-lewis.com"
 
 	# Hero section
 	[params.hero]
